@@ -1,1 +1,33 @@
+    65<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIAJE</title>
+    <link rel="stylesheet" href="SETUP.css"/>
 
+</head>
+
+<body>
+<div>
+    <form action="setup.php" method="post">
+        <div class="container">
+            <img id="logo" src="logo.jpg" />
+            <h1> WELCOME TO NIAJE</h1>
+            <div class="form-group">
+        <label for="rn"><b>Room Name</b></label><br>
+        <input type="text"placeholder="RoomName" name='RoomName' id='rn' required/>
+        <hr/> 
+            </div>
+            <div class="form-group">
+        <label for="rpsw"><b>Room Password</b></label><br>
+        <input type="password"placeholder="RoomPassword" name='RoomPassword' id='rpsw' required/>
+        <hr/>
+            </div>
+        <button class="registerbutton" type="submit">
+             <a href="VIDEO.html">JOIN ROOM</a>
+            </button>
+    </form>
+</div>
+</body>
+</html>
